@@ -5,3 +5,18 @@ composer
 laravel
 wamp
 mysql
+
+
+Installer dans un premier temps ##composer
+Ensuite Installer Wamp la derniere version
+Lors de l'installation de wamp Installer une version PHP>= 7.2
+Finir l'installation de Wamp et vous etes ready.
+Pour lancer le projet 
+Vous devez demarrer votre WampServer.
+Quand le WampServer deviens Vert
+Ouvrez un terminale ou un invite de commande
+Ensuite indiquer le chemin vers le projet Laravel 
+exp : cd Dowload/Projet/Biiga  si le projet Biiga se situe dans Projet qui se situe dans le dossier Download. Sur windows tester Download ou Telechargement. Certains invite reconnaisse Download d'autre reconnaissent Telechargement.
+Apres l'etape Precedente Faite php artisan serve 
+Cette commande permettra de demarer le projet sur votre machine.
+Pour consulter le site dans un navigateur voici l'adresse : localhost:8080
